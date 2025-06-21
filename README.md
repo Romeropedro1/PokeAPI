@@ -29,7 +29,7 @@ npm install -g @ionic/cli
 bash
 Copiar
 Editar
-git clone https://github.com/seu-usuario/pokeapi-app.git
+git clone https://github.com/Romeropedro1/pokeapi-app.git
 cd pokeapi-app
 📦 Instalando as dependências:
 bash
