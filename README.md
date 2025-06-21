@@ -1,42 +1,82 @@
-# 📱 Pokédex App — Ionic + Angular Standalone
+📄 README.md
+markdown
+Copiar
+Editar
+# 📱 PokeAPI App
 
-Aplicativo desenvolvido como projeto para avaliação na disciplina de Desenvolvimento Mobile, utilizando **Ionic Framework** e **Angular Standalone Components** para consumir a **PokeAPI**.
-
----
-
-## 📌 Descrição
-
-Este projeto é uma Pokédex interativa que lista os 151 primeiros Pokémon da franquia e permite visualizar detalhes individuais de cada um, como imagem, altura, peso e experiência base.
-
-Os dados são consumidos da API pública [PokeAPI](https://pokeapi.co/), demonstrando integração com serviços REST, roteamento dinâmico e navegação entre páginas.
+Aplicativo simples desenvolvido com **Ionic + Angular**, consumindo dados da [PokeAPI](https://pokeapi.co/). O objetivo é listar Pokémon e exibir seus detalhes de forma prática e responsiva.
 
 ---
 
-## 🎨 Funcionalidades
+## 📦 Tecnologias Utilizadas
 
-- ✅ Listagem dos 151 primeiros Pokémon.
-- ✅ Exibição das imagens oficiais dos Pokémon.
-- ✅ Navegação para a página de detalhes de cada Pokémon.
-- ✅ Visualização das informações completas (altura, peso, experiência, imagem).
-- ✅ Aplicação responsiva, compatível com navegadores e dispositivos móveis.
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- [Ionic Framework 7+](https://ionicframework.com/)
-- [Angular 17+ Standalone](https://angular.io/)
+- [Ionic Framework](https://ionicframework.com/)
+- [Angular](https://angular.io/)
 - [TypeScript](https://www.typescriptlang.org/)
-- [RxJS](https://rxjs.dev/)
 - [PokeAPI](https://pokeapi.co/)
 
 ---
 
-## 📦 Como Executar
+## 🚀 Como Executar o Projeto
 
-### 1️⃣ Clonar o projeto
+### 📌 Pré-requisitos:
 
+- Node.js e npm instalados
+- Ionic CLI instalado globalmente:
 ```bash
-git clone https://github.com/Romeropedro1/pokeapi-app.git
+npm install -g @ionic/cli
+📥 Clonando o projeto:
+bash
+Copiar
+Editar
+git clone https://github.com/seu-usuario/pokeapi-app.git
 cd pokeapi-app
+📦 Instalando as dependências:
+bash
+Copiar
+Editar
+npm install
+▶️ Executando o projeto:
+bash
+Copiar
+Editar
+ionic serve
+A aplicação será aberta no navegador em http://localhost:8100/
 
+📂 Estrutura do Projeto
+pgsql
+Copiar
+Editar
+pokeapi-app/
+├── src/
+│   ├── app/
+│   │   ├── pages/
+│   │   │   ├── home/
+│   │   │   └── details/
+│   │   ├── services/
+│   │   │   └── pokeapi.service.ts
+│   ├── assets/
+│   └── index.html
+├── package.json
+├── angular.json
+└── README.md
+📖 Funcionalidades
+Listar Pokémon via PokeAPI
+
+Exibir detalhes do Pokémon selecionado
+
+Navegação entre páginas utilizando Ionic Router
+
+📌 Links úteis
+Documentação Ionic
+
+Documentação Angular
+
+PokeAPI
+
+📃 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+✨ Autor
+Romero Pedro
+romero-pedro1@outlook.com.br
